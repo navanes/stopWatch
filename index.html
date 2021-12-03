@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container" style=" background-color: darksalmon; padding: 20px 50px 50px; margin-top: 50px;">
+      <div
+        class="col-xs-1"
+        align="center"
+        style="margin-top: 50px;"
+      >
+        <div class="row-6">
+          <button id="start-btn" class="btn btn-primary" onclick="start()">
+            Start
+          </button>
+
+          <button id="stop-btn" class="btn btn-danger" onclick="stop()">
+            Stop
+          </button>
+
+          <button id="reset-btn" class="btn btn-success" onclick="reset()">
+            Reset
+          </button>
+        </div>
+        <br />
+        <div class="col-sm border" style="padding: 20px;">
+          <span id="timer">0</span>
+          <p id="duration" class="display-3">0</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
